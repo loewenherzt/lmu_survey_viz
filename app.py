@@ -38,7 +38,7 @@ def main():
     results = load_results()
     
     # Create tabs
-    tab3, tab1, tab2 = st.tabs(["📋 Data Table", "📈 Computed Statistics", "📊 Histograms"])
+    tab1, tab2, tab3 = st.tabs(["📈 Computed Statistics", "📊 Histograms", "📋 Data Table"])
     
     # ==================== TAB 1: Data Table ====================
     with tab3:
