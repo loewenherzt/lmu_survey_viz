@@ -38,10 +38,10 @@ def main():
     results = load_results()
     
     # Create tabs
-    tab1, tab2, tab3 = st.tabs(["📋 Data Table", "📈 Computed Statistics", "📊 Histograms"])
+    tab3, tab1, tab2 = st.tabs(["📋 Data Table", "📈 Computed Statistics", "📊 Histograms"])
     
     # ==================== TAB 1: Data Table ====================
-    with tab1:
+    with tab3:
         st.header("Original Survey Data")
         
         col1, col2 = st.columns(2)
@@ -67,7 +67,7 @@ def main():
         st.dataframe(filtered_df, width='stretch', height=500)
     
     # ==================== TAB 2: Computed Statistics ====================
-    with tab2:
+    with tab1:
         st.header("Computed Statistics")
         
         # Parse results into a more usable format
@@ -173,7 +173,7 @@ def main():
                 st.write(f"{color} {row['Correlation']}: **{val:.3f}**")
     
     # ==================== TAB 3: Histograms ====================
-    with tab3:
+    with tab2:
         st.header("Data Distributions")
         
         # Emotional histogram
