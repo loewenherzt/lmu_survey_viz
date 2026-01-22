@@ -1,0 +1,29 @@
+DATA QUALITY ASSESSMENT
+==================================================
+
+Total rows: 262
+Total columns: 9
+
+Unique participants: 21
+
+Item Type distribution:
+  - Stimulus: 174 rows
+  - Distraktor: 88 rows
+
+Age Question Type distribution:
+  - age_recommendation: 137 rows
+  - suitability: 125 rows
+
+Missing values per column:
+  No missing values found.
+
+Duplicate rows: 0
+
+Potential invalid responses (zero values):
+  - Emotional = 0: 2 rows
+  - Pos / Neg = 0: 2 rows
+  - Age Answer = 0: 2 rows
+
+==================================================
+SUMMARY:
+The data appears to be complete with no missing values.

@@ -1,0 +1,100 @@
+DETAILED DATA ISSUES REPORT
+======================================================================
+
+DUPLICATE ROWS
+----------------------------------------------------------------------
+
+No duplicate rows found.
+
+
+ROWS WITH ZERO VALUES (POTENTIAL INVALID RESPONSES)
+----------------------------------------------------------------------
+
+Found 2 rows with zero values:
+
+CSV Row: 77
+  Participant ID: 20251230184447_3163
+  Timestamp: 2025-12-30 18:51:04
+  Item Type: Distraktor
+  Emotional: 0, Pos/Neg: 0, Age Answer: 0
+  Text: Dabei fällt ihr zweierlei. Erstens hat sich Resi, die Haushä...
+
+CSV Row: 101
+  Participant ID: 20251230190200_2805
+  Timestamp: 2025-12-30 19:09:30
+  Item Type: Distraktor
+  Emotional: 0, Pos/Neg: 0, Age Answer: 0
+  Text: Vater merkt natürlich nichts. Männer merken nie etwas!...
+
+
+PARTICIPANT QUESTION COMPLETENESS
+----------------------------------------------------------------------
+
+Total unique questions (by Page Ref): 13
+Total participants: 21
+Participants with all questions: 17
+Participants missing questions: 4
+
+Participants with missing questions:
+
+Participant: 20251230175938_4048
+  Missing 11 question(s):
+    - S.125
+    - S.15
+    - S.177
+    - S.20
+    - S.207
+    - S.23
+    - S.230
+    - S.234
+    - S.50
+    - S.60
+    - S.75
+
+Participant: 20251230180711_3408
+  Missing 12 question(s):
+    - S.125
+    - S.15
+    - S.177
+    - S.20
+    - S.207
+    - S.23
+    - S.230
+    - S.234
+    - S.32
+    - S.50
+    - S.62
+    - S.75
+
+Participant: 20251230190221_2253
+  Missing 12 question(s):
+    - S.125
+    - S.15
+    - S.177
+    - S.207
+    - S.23
+    - S.230
+    - S.234
+    - S.32
+    - S.50
+    - S.60
+    - S.62
+    - S.75
+
+Participant: 20251230201149_8348
+  Missing 11 question(s):
+    - S.125
+    - S.15
+    - S.177
+    - S.207
+    - S.23
+    - S.230
+    - S.234
+    - S.50
+    - S.60
+    - S.62
+    - S.75
+
+
+======================================================================
+END OF REPORT
